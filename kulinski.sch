@@ -1,0 +1,326 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5D1A9D87
+P 1900 5000
+F 0 "R?" H 1970 5046 50  0000 L CNN
+F 1 "R" H 1970 4955 50  0000 L CNN
+F 2 "" V 1830 5000 50  0001 C CNN
+F 3 "~" H 1900 5000 50  0001 C CNN
+	1    1900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D1AA05A
+P 2900 4350
+F 0 "R?" H 2970 4396 50  0000 L CNN
+F 1 "R" H 2970 4305 50  0000 L CNN
+F 2 "" V 2830 4350 50  0001 C CNN
+F 3 "~" H 2900 4350 50  0001 C CNN
+	1    2900 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D1AA329
+P 4000 3800
+F 0 "R?" H 4070 3846 50  0000 L CNN
+F 1 "R" H 4070 3755 50  0000 L CNN
+F 2 "" V 3930 3800 50  0001 C CNN
+F 3 "~" H 4000 3800 50  0001 C CNN
+	1    4000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D1AAA03
+P 4000 4450
+F 0 "R?" H 4070 4496 50  0000 L CNN
+F 1 "R" H 4070 4405 50  0000 L CNN
+F 2 "" V 3930 4450 50  0001 C CNN
+F 3 "~" H 4000 4450 50  0001 C CNN
+	1    4000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D1AABF0
+P 5700 4550
+F 0 "R?" H 5770 4596 50  0000 L CNN
+F 1 "R" H 5770 4505 50  0000 L CNN
+F 2 "" V 5630 4550 50  0001 C CNN
+F 3 "~" H 5700 4550 50  0001 C CNN
+	1    5700 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D1AAD08
+P 6550 4550
+F 0 "R?" H 6620 4596 50  0000 L CNN
+F 1 "R" H 6620 4505 50  0000 L CNN
+F 2 "" V 6480 4550 50  0001 C CNN
+F 3 "~" H 6550 4550 50  0001 C CNN
+	1    6550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D1AB35B
+P 7000 4850
+F 0 "R?" H 7070 4896 50  0000 L CNN
+F 1 "R" H 7070 4805 50  0000 L CNN
+F 2 "" V 6930 4850 50  0001 C CNN
+F 3 "~" H 7000 4850 50  0001 C CNN
+	1    7000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D1ABADE
+P 4250 6150
+F 0 "R?" H 4320 6196 50  0000 L CNN
+F 1 "R" H 4320 6105 50  0000 L CNN
+F 2 "" V 4180 6150 50  0001 C CNN
+F 3 "~" H 4250 6150 50  0001 C CNN
+	1    4250 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D1ABCC3
+P 4950 6150
+F 0 "R?" H 5020 6196 50  0000 L CNN
+F 1 "R" H 5020 6105 50  0000 L CNN
+F 2 "" V 4880 6150 50  0001 C CNN
+F 3 "~" H 4950 6150 50  0001 C CNN
+	1    4950 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:RTRIM R?
+U 1 1 5D1ACA5A
+P 5700 6200
+F 0 "R?" H 5828 6246 50  0000 L CNN
+F 1 "RTRIM" H 5828 6155 50  0000 L CNN
+F 2 "" V 5630 6200 50  0001 C CNN
+F 3 "~" H 5700 6200 50  0001 C CNN
+	1    5700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC327 Q?
+U 1 1 5D1AD486
+P 5800 5350
+F 0 "Q?" H 5991 5396 50  0000 L CNN
+F 1 "BC327" H 5991 5305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6000 5275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF" H 5800 5350 50  0001 L CNN
+	1    5800 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5D1BC838
+P 1900 4400
+F 0 "D?" V 1847 4478 50  0000 L CNN
+F 1 "LED" V 1938 4478 50  0000 L CNN
+F 2 "" H 1900 4400 50  0001 C CNN
+F 3 "~" H 1900 4400 50  0001 C CNN
+	1    1900 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L kuk:IRFZ44NPBF U?
+U 1 1 5D1C1282
+P 2850 5200
+F 0 "U?" H 3013 5246 50  0000 L CNN
+F 1 "IRFZ44NPBF" H 3013 5155 50  0000 L CNN
+F 2 "TO-220" H 2850 5200 50  0001 L BNN
+F 3 "" H 2850 5200 50  0001 L BNN
+F 4 "None" H 2850 5200 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 2850 5200 50  0001 L BNN "Field5"
+F 6 "MOSFET, Power; N-Ch; VDSS 55V; RDS_ON_ 17.5 Milliohms; ID 49A; TO-220AB; PD 94W; -55deg" H 2850 5200 50  0001 L BNN "Field6"
+F 7 "TO-220 Infineon" H 2850 5200 50  0001 L BNN "Field7"
+F 8 "IRFZ44NPBF" H 2850 5200 50  0001 L BNN "Field8"
+	1    2850 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC548 Q?
+U 1 1 5D1C47F1
+P 3750 5600
+F 0 "Q?" H 3941 5646 50  0000 L CNN
+F 1 "BC548" H 3941 5555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3950 5525 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 3750 5600 50  0001 L CNN
+	1    3750 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D1C59A4
+P 3550 4300
+F 0 "C?" V 3298 4300 50  0000 C CNN
+F 1 "C" V 3389 4300 50  0000 C CNN
+F 2 "" H 3588 4150 50  0001 C CNN
+F 3 "~" H 3550 4300 50  0001 C CNN
+	1    3550 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D1C60C6
+P 3550 4650
+F 0 "C?" V 3298 4650 50  0000 C CNN
+F 1 "C" V 3389 4650 50  0000 C CNN
+F 2 "" H 3588 4500 50  0001 C CNN
+F 3 "~" H 3550 4650 50  0001 C CNN
+	1    3550 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N5408 D?
+U 1 1 5D1C6B30
+P 2350 3700
+F 0 "D?" V 2304 3779 50  0000 L CNN
+F 1 "1N5408" V 2395 3779 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 2350 3525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 2350 3700 50  0001 C CNN
+	1    2350 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5D1C76C5
+P 7050 3850
+F 0 "D?" V 7004 3929 50  0000 L CNN
+F 1 "1N4148" V 7095 3929 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7050 3850 50  0001 C CNN
+	1    7050 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5D1C8D81
+P 7350 3850
+F 0 "D?" V 7304 3929 50  0000 L CNN
+F 1 "1N4148" V 7395 3929 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7350 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7350 3850 50  0001 C CNN
+	1    7350 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:BZX84Cxx D?
+U 1 1 5D1CB1BD
+P 2900 3700
+F 0 "D?" V 2854 3779 50  0000 L CNN
+F 1 "BZX84Cxx" V 2945 3779 50  0000 L CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 2900 3525 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 2900 3700 50  0001 C CNN
+	1    2900 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5D1CBEED
+P 4600 6150
+F 0 "C?" H 4718 6196 50  0000 L CNN
+F 1 "CP" H 4718 6105 50  0000 L CNN
+F 2 "" H 4638 6000 50  0001 C CNN
+F 3 "~" H 4600 6150 50  0001 C CNN
+	1    4600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5D1CD0C5
+P 6550 5400
+F 0 "C?" H 6668 5446 50  0000 L CNN
+F 1 "CP" H 6668 5355 50  0000 L CNN
+F 2 "" H 6588 5250 50  0001 C CNN
+F 3 "~" H 6550 5400 50  0001 C CNN
+	1    6550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D1D25E3
+P 1800 6750
+F 0 "#PWR?" H 1800 6500 50  0001 C CNN
+F 1 "GND" H 1805 6577 50  0000 C CNN
+F 2 "" H 1800 6750 50  0001 C CNN
+F 3 "" H 1800 6750 50  0001 C CNN
+	1    1800 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5550 6550 6500
+Wire Wire Line
+	1800 6750 1800 6500
+Wire Wire Line
+	1800 6500 2850 6500
+Wire Wire Line
+	2850 5400 2850 6500
+Connection ~ 2850 6500
+Wire Wire Line
+	6550 5250 6550 4700
+Wire Wire Line
+	5700 4700 5700 5150
+Wire Wire Line
+	5700 5600 4250 5600
+Wire Wire Line
+	5700 5550 5700 5600
+Connection ~ 5700 5600
+Wire Wire Line
+	5700 5600 5700 5750
+Wire Wire Line
+	2850 6500 3650 6500
+Wire Wire Line
+	3650 5800 3650 6500
+Wire Wire Line
+	6550 6500 5700 6500
+Connection ~ 3650 6500
+Wire Wire Line
+	4250 6300 4250 6500
+Connection ~ 4250 6500
+Wire Wire Line
+	4250 6500 3650 6500
+Wire Wire Line
+	4600 6300 4600 6500
+Connection ~ 4600 6500
+Wire Wire Line
+	4600 6500 4250 6500
+Wire Wire Line
+	4950 6300 4950 6500
+Connection ~ 4950 6500
+Wire Wire Line
+	4950 6500 4600 6500
+Wire Wire Line
+	5700 6350 5700 6500
+Connection ~ 5700 6500
+Wire Wire Line
+	5700 6500 4950 6500
+Wire Wire Line
+	4250 6000 4250 5600
+Connection ~ 4250 5600
+Wire Wire Line
+	4250 5600 3950 5600
+$EndSCHEMATC
